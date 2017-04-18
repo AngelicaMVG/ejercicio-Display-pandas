@@ -44,9 +44,7 @@ span:hover {
 
 .botones{
   display: inline-block;
-
-  margin: 70px 70px 100px 50px;
-
+  margin: 70px 70px 50px 50px;
 }
 
 button{
@@ -76,10 +74,15 @@ button:hover {
 #textos {
   color: #fff;
   text-align: justify;
-  column-count: 2;
 }
 
-footer {
+#columna1, #columna2{
+  width: 500px;
+  display: inline-block;
+  margin: 50px;
+}
+
+#foot {
   background: #e30025;
   color: #fff;
   font-size: 15px;
