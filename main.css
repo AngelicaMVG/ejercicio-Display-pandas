@@ -1,0 +1,89 @@
+body{
+  background: #000;
+}
+header {
+  background: #e30025;
+}
+
+ul{
+  padding: 30px;
+}
+
+li {
+  display: inline;
+  list-style: none;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+#imagenes {
+  display: inline-flex;
+  margin-left: 40px;
+}
+
+img {
+  margin: 20px;
+}
+
+span{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -200px;
+  color: #000;
+}
+
+span:hover {
+  cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat865.cur), progress !important;
+}
+
+.botones{
+  display: inline-block;
+
+  margin: 70px 70px 100px 50px;
+
+}
+
+button{
+  background: #e30025;
+  color: #fff;
+  font-size: 20px;
+  font-family: monospace;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: #fff;
+  color: #e30025;
+  cursor: url(http://cur.cursors-4u.net/nature/nat-9/nat865.cur), progress !important;
+}
+
+.btn {
+  display: inline-flex;
+  margin:5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#textos {
+  color: #fff;
+  text-align: justify;
+  column-count: 2;
+}
+
+footer {
+  background: #e30025;
+  color: #fff;
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+  height: 40px;
+  padding: 1px;
+}
